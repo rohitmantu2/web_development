@@ -1,0 +1,334 @@
+html{
+    font-family:"helvetica neue","Arial",sans-serif;
+}
+body{
+    background-color:#ffffff;
+    margin:0;
+
+}
+p{
+    line-height: 24px;
+    font-size: 16px;
+    color: #5d6660;
+    font-family:"helvetica neue","Arial",sans-serif;
+    text-align: center;
+}
+header{
+    height:75px;
+    background-color: #ffffff;
+}
+#header-container
+{
+  width:80%;
+  margin:auto;   
+}
+.col-3
+{
+    float:left;
+    width: 32%;   
+}
+.col-2
+{
+    float:left;
+    width:48%;
+}
+.logo{
+    padding-top: 30px;
+}
+.menu{
+    margin-top: 32px;
+}
+.menu-li{
+    text-decoration: none;
+    color:#8e8e8e;
+  
+}
+.menu-li li{
+    list-style-type:none;
+    display: inline;
+    font-size: .85em;   
+    padding-right: 10px;  
+    /* font-size: .85em;  */
+}
+.button-header{
+    text-decoration: none;
+    color:#ffffff;
+    border-radius: 28px; 
+    background-color:#6dc77a;
+    padding:10px 26px;
+    margin-top:20px;
+    font-size: 17px;  
+    float: right;
+    font-family: sans-serif;
+}
+#top-section{
+    background-image: url(images/Friends.png);
+    height:740px;
+    border:none;
+  
+    
+}
+#top-section-main {
+
+width: 60%;
+margin-left:auto;
+margin-right:auto;
+margin-top:0;
+}
+#top-section-main h1 {
+    text-align: center;
+    font-size: 4em;
+    font-weight:50;
+    color:#ffffff; 
+    margin-top:0;
+    padding-top:95px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+#top-section-main p {
+    text-align: center;
+    font-size:1.3em;
+    font-weight: 400;
+    color:#ffffff;    
+    margin-top:0;
+}
+.play-bottom
+{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding:50px 0 110px 0;
+}
+.form h6 {
+    color:#ffffff;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: .9em;
+    text-align: center;
+
+}
+.form input
+{
+    padding-left: 15px;
+    /* font-family: sans-serif; */
+    font-weight: 100;
+    width: 30%;
+    height: 35px;
+    font-size: 15px;
+    color:blue;
+    border: none;
+    /* margin: 0; */
+
+}
+.form button{
+    width:30%;
+    height: 38px;
+    font-size: 15px;
+    color:#ffffff;
+    background-color: #6dc77a;
+    font-weight: 100;
+    padding-left: 15px;
+    border: none;
+    margin: 0;
+}
+#content-features
+{
+    padding-top:100px;
+    background-color: #ffffff;
+   
+
+}
+#content-features h1
+{
+    width: 70%;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1.5em;
+    margin:auto;
+    padding-bottom: 100px;
+
+}
+#image-features
+{
+    width:80%;
+    margin:auto;
+    
+}
+#image-features .col-3 img{
+    width:100%;
+    margin:auto;
+}
+#image-features .col-3 p{
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+#image-features .col-3 h3{
+    text-align: center;
+}
+#image-features .col-3 {
+    padding-left: 10px;
+    /* width:30%; */
+}
+#showcase1
+{
+    width:100%; 
+    padding-top:100px;
+    clear:both;
+    background-color: #f6f8fa;  
+      
+}
+.showcase{
+    margin:auto;
+    width:80%;
+    overflow:auto;
+    
+}
+.showcase-text
+{
+    padding-top:300px;
+    padding-left:50px;  
+}
+.showcase-title
+{
+    line-height: 1.5em;
+    font-weight:100;
+    width:70%;
+    margin:auto;
+    color:#8e8e8e;
+}
+.showcase-text p{
+    width:70%;
+    margin:auto;
+    padding-right:50px;
+    padding-top:10px;
+
+}
+#showcase2
+{
+    width:100%; 
+    padding-top:70px;
+    clear:both;
+    background-color: #f6f8fa;  
+      
+}
+#last-section
+{
+    background-image: url(images/Darkdesk.png);
+    padding-bottom: 20px;
+    background-position: 50% 50%;
+    
+}
+.last-section-text{
+    margin:70%;
+    margin:auto;
+    padding-top: 20px;
+}
+.last-section-text h3{
+    color:#ffffff;
+    font-weight:100;
+    font-size:3em;
+    text-align:center;
+    margin-bottom: 0;
+
+}
+.last-section-text p{
+    color:#ffffff;
+    font-weight:100;
+    text-align:center;
+    margin-top:0;
+    font-size: 1.2em;
+    padding-top: 10px;
+    margin-bottom: 0;
+    padding-bottom:60px;
+}
+.trybutton
+{
+    color:#ffffff;
+    background-color: #6dc77a;
+    text-decoration: none;
+    font-weight: 100;
+    font-size:1em;
+    padding:20px 40px;
+    font-family: sans-serif;
+    overflow: auto;
+}
+.trybutton:hover
+{
+    background-color:#5cbf2a;
+}
+#form-section
+{
+    padding-top: 10px;
+}
+.left-section
+{
+    margin-top:100px;
+    margin-left:100px;
+}
+.signupform
+{
+ background-color: #f6f8fa;
+ margin-right: 200px;
+ padding:0px 50px 10px 50px;
+}
+.signupform h6{
+    color:black;
+    font-size: .9em;
+    text-align: center;
+    padding-top:15px;
+}
+.signupform input{
+    margin:0;
+    width: 100%;
+    height: 40px;
+    font-weight: 100;
+    border: none;
+    margin-top: 15px;
+    padding-left:5px;
+    font-size:15px;
+}
+.button-last
+{
+   font-weight: 100;
+   width: 100%;
+   border: none;
+   margin:0;
+   height:40px;
+   margin-top: 15px;
+   color:#ffffff;
+   background-color: #5cbf2a;
+   font-size:15px;
+}
+footer
+{
+    background-image: url(images/Footerbg.png);
+    height:500px;
+    clear: both;
+    margin-top: 10px;
+    background-position: 50% 50%;
+}
+.social-section
+{
+    width: 33%;
+    height:100%;
+    float: left;
+}
+.centre
+{
+    width: 55px;
+    margin:auto;
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+.social-section:hover{
+    background-color: black;
+    opacity: .5;
+}
+.footer-text{
+    padding-top: 5px;
+    font-size: .9em;
+    
+}
+
+
+
